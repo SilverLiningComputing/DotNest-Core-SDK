@@ -1,0 +1,26 @@
+{
+  "name": "SilverLiningComputing.MediaTheme.Setup",
+  "displayName": "Silver Lining Computing - Media Theme Setup",
+  "description": "Settings and features required only for Media Theme development.",
+  "author": "SLC",
+  "website": "https://silverliningcomputing.com",
+  "version": "1.0",
+  "issetuprecipe": true,
+  "categories": [ "dotnestcoresdk" ],
+  "tags": [],
+  "variables": {
+    "homeContentItemId": "[js:uuid()]",
+    "now": "[js: new Date().toISOString()]"
+  },
+  "steps": [
+    {
+      "name": "recipes",
+      "Values": [
+        {
+          "executionid": "DotNest.Core.SDK.Web",
+          "name": "SilverLiningComputing.Common"
+        }
+      ]
+    }
+  ]
+}

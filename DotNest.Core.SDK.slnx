@@ -20,6 +20,7 @@
   </Folder>
   <Folder Name="/src/Themes/">
     <Project Path="src/Themes/Sample.Theme/Sample.Theme.csproj" />
+    <Project Path="src/Themes/SilverLiningComputing.Theme/SilverLiningComputing.Theme.csproj" />
   </Folder>
   <Folder Name="/test/">
     <Project Path="test/DotNest.Core.SDK.Tests.UI/DotNest.Core.SDK.Tests.UI.csproj" />

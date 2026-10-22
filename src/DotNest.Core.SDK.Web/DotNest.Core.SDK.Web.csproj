@@ -74,6 +74,7 @@
   <!-- Project references -->
   <ItemGroup>
     <ProjectReference Include="..\Themes\Sample.Theme\Sample.Theme.csproj" />
+    <ProjectReference Include="..\Themes\SilverLiningComputing.Theme\SilverLiningComputing.Theme.csproj" />
   </ItemGroup>
 
   <!-- Security Updates - make sure to check if these are still necessary -->
