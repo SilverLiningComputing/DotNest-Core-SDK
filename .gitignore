@@ -28,3 +28,4 @@ profiling/
 src/*.Web/Localization
 .editorconfig
 *.MediaTheme.recipe.json
+**/Recipes/_MediaTheme/

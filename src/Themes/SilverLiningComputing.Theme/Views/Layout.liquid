@@ -32,19 +32,20 @@
 
         <!-- ===== Header ===== -->
         <div id="header">
-            <h1>
-                <a href="/">{{ Site.SiteName }}</a>
-            </h1>
-        </div>
+            <!-- ===== Logo ===== -->
+            <a class="site-logo" href="{{ '~/' | href }}" aria-label="Silver Lining Computing">
+                {% assign logoUrl = "~/mediatheme/images/logo.png" | href %}
+                <img src="{{ logoUrl }}" alt="Silver Lining Computing">
+            </a>
+            <!-- ===== Hamburger Toggle (hidden on desktop via CSS) ===== -->
+            <div class="nav-toggle" role="button" aria-label="Toggle navigation" tabindex="0">
+                <div class="nav-toggle-bar"></div>
+            </div>
 
-        <!-- ===== Hamburger Toggle (hidden on desktop via CSS) ===== -->
-        <div class="nav-toggle" role="button" aria-label="Toggle navigation" tabindex="0">
-            <div class="nav-toggle-bar"></div>
-        </div>
-
-        <!-- ===== Navigation ===== -->
-        <div id="menucontainer">
-            {% shape "menu", alias: "alias:main-menu", cache_id: "main-menu", cache_fixed_duration: "00:05:00", cache_tag: "alias:main-menu", cache_context: "user.roles" %}
+            <!-- ===== Navigation ===== -->
+            <div id="menucontainer">
+                {% shape "menu", alias: "alias:main-menu", cache_id: "main-menu", cache_fixed_duration: "00:05:00", cache_tag: "alias:main-menu", cache_context: "user.roles" %}
+            </div>
         </div>
 
         <!-- ===== Main Layout ===== -->

@@ -7,7 +7,6 @@ using OrchardCore.DisplayManagement.Manifest;
     Version = "1.0.0",
     Website = "https://silverliningcomputing.com",
     Description = "Silver Lining Computing Theme",
-    BaseTheme = "TheTheme",
     Dependencies =
     [
         FeatureNames.MediaThemeBridge,
